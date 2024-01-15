@@ -1,0 +1,87 @@
+html {
+    height: 100%;
+}
+
+body{
+    background-color: rgb(0, 0, 0);
+    background-image: url(images/Orange-Chicken.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1024px
+}
+
+header {
+    height: 118px;
+    text-align: center;
+}
+
+nav {
+    background-color: rgba(0, 0, 0, 0.836);
+    text-align: center;
+    padding-top: 14px;
+    padding-bottom: 14px;
+}
+
+main {
+    height: 400px;
+    background-color: rgba(0, 0, 0, 0.555);
+    text-align: center;
+    padding-top: 80px;
+    padding-left: 240px;
+    padding-right: 240px;
+}
+
+/* footer {
+    background-color: rgba(0, 0, 0, 0.644);
+    padding-bottom: 30px;
+} */
+
+h1 {
+    font-size: 80px;
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: black;
+}
+
+main p {
+    -webkit-text-stroke-width: 0.4px;
+    -webkit-text-stroke-color: black;
+}
+
+p {
+    font-size: 23px;
+    color:rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    /* text-decoration: none; */
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 12px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* footer p {
+    text-decoration: none;
+    font-size: 10px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(255, 255, 255, 0.692); 
+}*/
+
+.maps {
+    padding-bottom: 100px;
+}
